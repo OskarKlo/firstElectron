@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
 .cover-image {
     position: relative;
     background: #000 url("jumbotron-bg.png") center center;
@@ -7,15 +9,39 @@
     overflow: hidden;
 }
 
-.cover-text {
-	color: white;
-	text-align: center;
-}
-
 #introPage {
 	text-align: center;
 }
 
 #introCont {
 	margin: 10px;
+}
+
+.cover-text {
+	color: white;
+	text-align: center;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(http://www.f-covers.com/cover/street-art-panda-holding-guns-facebook-cover-timeline-banner-for-fb.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
