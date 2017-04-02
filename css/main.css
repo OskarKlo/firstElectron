@@ -1,0 +1,13 @@
+.cover-image {
+    position: relative;
+    background: #000 url("jumbotron-bg.png") center center;
+    width: 2000;
+    height: 100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.cover-text {
+	color: white;
+	text-align: center;
+}
