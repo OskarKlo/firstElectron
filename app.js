@@ -20,18 +20,15 @@ function userInfo(){
     //  }
 }
 
-userName.addEventListener('blur', registerInfo(userName));
+// userName.addEventListener('blur', function(){
+//     if (userName === null){
+//         alert("it is empty");
+//     } else {
+//         alert("That is a username");
+//     }
+//     // alert("It blured");
+//     // in this function,
+//     // take the userName and pass it
+// });
 
-function registerInfo(item){
-    console.log("should work");
-}
 
-// Calculator Practice
-// var textResults = document.getElementById('results');
-
-// function addNumbers(item){
-//     var results = item + 2;
-//     console.log(results);
-//     alert(results);
-//     textResults.innerHTML = results;
-// }
