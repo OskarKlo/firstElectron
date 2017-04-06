@@ -31,10 +31,21 @@ function userInfo(){
 //     // take the userName and pass it
 // });
 
-var settingBtn = document.getElementsByClassName('settingsBtn');
-
-var swapContent = function(){
+function accountCont(){
     document.getElementById('settings-content').innerHTML = "This is account info";
-}
+    document.getElementById('settings-heading').innerHTML = "Account";
+};
+function bioCont(){
+    document.getElementById('settings-content').innerHTML = "This is bio info";
+    document.getElementById('settings-heading').innerHTML = "Bio";
+};
+function planCont(){
+    document.getElementById('settings-content').innerHTML = "This is plan info";
+    document.getElementById('settings-heading').innerHTML = "Plan";
+};
+function emailCont(){
+    document.getElementById('settings-content').innerHTML = "This is email and password info";
+    document.getElementById('settings-heading').innerHTML = "Email & Password";
+};
 
-settingBtn.addEventListener('click', swapContent, false);
+
