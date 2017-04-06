@@ -1,8 +1,21 @@
 console.log("working");
 
-function switchText(){
-    document.getElementById('important').innerHTML = "This is now important";
-}
+function accountCont(){
+    document.getElementById('settings-content').innerHTML = "This is account info";
+    document.getElementById('settings-heading').innerHTML = "Account";
+};
+function bioCont(){
+    document.getElementById('settings-content').innerHTML = "This is bio info";
+    document.getElementById('settings-heading').innerHTML = "Bio";
+};
+function planCont(){
+    document.getElementById('settings-content').innerHTML = "This is plan info";
+    document.getElementById('settings-heading').innerHTML = "Plan";
+};
+function emailCont(){
+    document.getElementById('settings-content').innerHTML = "This is email and password info";
+    document.getElementById('settings-heading').innerHTML = "Email & Password";
+};
 
 var userName = document.getElementById('userName');
 var passWord = document.getElementById('passWord');
@@ -30,22 +43,3 @@ function userInfo(){
 //     // in this function,
 //     // take the userName and pass it
 // });
-
-function accountCont(){
-    document.getElementById('settings-content').innerHTML = "This is account info";
-    document.getElementById('settings-heading').innerHTML = "Account";
-};
-function bioCont(){
-    document.getElementById('settings-content').innerHTML = "This is bio info";
-    document.getElementById('settings-heading').innerHTML = "Bio";
-};
-function planCont(){
-    document.getElementById('settings-content').innerHTML = "This is plan info";
-    document.getElementById('settings-heading').innerHTML = "Plan";
-};
-function emailCont(){
-    document.getElementById('settings-content').innerHTML = "This is email and password info";
-    document.getElementById('settings-heading').innerHTML = "Email & Password";
-};
-
-
