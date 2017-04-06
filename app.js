@@ -31,4 +31,10 @@ function userInfo(){
 //     // take the userName and pass it
 // });
 
+var settingBtn = document.getElementsByClassName('settingsBtn');
 
+var swapContent = function(){
+    document.getElementById('settings-content').innerHTML = "This is account info";
+}
+
+settingBtn.addEventListener('click', swapContent, false);
