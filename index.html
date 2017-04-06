@@ -10,15 +10,31 @@
 <body>
 	<div id="introPage" class="">
 		<h1 id="introCont">Street Art</h1>
-		<input id="introCont" type="text" name="email" placeholder="Email"><br>
-		<input id="introCont" type="text" name="password" placeholder="Password"><br>
+		<input id="userName" type="text" name="email" placeholder="Email"><br>
+		<input id="passWord" type="text" name="password" placeholder="Password"><br>
 		<div class="btn-group btn-group-justified" role="group">
-		<button id="introCont" class="btn-primary" type="button">Sign Up</button>
-		<button id="introCont" class="btn-success" type="button">Sign In</button><br>
+		<button id="" class="btn-primary" type="button">Sign Up</button>
+		<button onclick="userInfo();" id="signInBtn" class="btn-success" type="button">Sign In</button><br>
 		</div>
 		<a href="home.html">Home</a>
 	</div>
+	<!--Calculator Practice-->
+	<div>
+		<h1>Calculator</h1>
+		<h4>Addition of 2</h4>
+		<button class="calcBtn1 btn-success" onclick="addNumbers(1);">1</button>
+		<button class="calcBtn2 btn-success" onclick="addNumbers(2);">2</button>
+		<button class="calcBtn3 btn-success" onclick="addNumbers(3);">3</button>
+		<h4 id="results"></h4>
+	</div>
 
+	<!-- jQuery -->
+    <script>window.$ = window.jQuery = require('./js/jquery.js');</script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script>window.$ = window.Bootstrap = require('./js/bootstrap.js');</script>
+
+    <script src="app.js"></script>
 	<script src="https://use.fontawesome.com/81d131acb0.js"></script>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
