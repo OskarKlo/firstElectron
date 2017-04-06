@@ -20,6 +20,12 @@ function userInfo(){
     //  }
 }
 
+userName.addEventListener('blur', registerInfo(userName));
+
+function registerInfo(item){
+    console.log("should work");
+}
+
 // Calculator Practice
 // var textResults = document.getElementById('results');
 
