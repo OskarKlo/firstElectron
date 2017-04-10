@@ -43,3 +43,11 @@ function userInfo(){
 //     // in this function,
 //     // take the userName and pass it
 // });
+
+// Delegating events on a ul list
+// list.addEventListener("click", function(e){
+//  if (e.currentTarget.tagName == "li") {
+//  /* ... */
+//  return false;
+//  }
+// }, false);
